@@ -45,10 +45,13 @@ a{
 /*     IMAGEN LOGO      */
 #trello{
 	float: right;
-	width: 8%;
+	width: 6%;
 	background-size: 30px;
     margin-right: 40pc;
     margin-top: -2pc;
+}
+#trello:hover{
+	opacity: 3;
 }
 
 .opcs{
@@ -137,25 +140,49 @@ a{
 }
 
 /*   SECCIÓN LISTAS   */
+::placeholder{
+	color: lightgrey;
+}
+
 #conteiner{
 	background-color: #1A8EC2;
     width: 101%;
     margin-left: -8px;
     height: 500px;
 }
+.inputOriginal{
+	border: none;
+    width: 20%;
+    height: 42px;
+    margin-left: 1pc;
+    margin-top: 0.5pc;
+    border-radius: 0.4pc;
+    background-color: #11658E;
+    padding-left: 1pc;
+}
 #contenedor{
 	background-color: #fff;
-	width: 271px;
-	height: 81px;
+	width: 21%;
+	height: 20%;
 	display: inline-block;
+    margin-left: 1pc;
+    border-radius: 0.3pc;
 }
-.input{
-	border: 1px solid olive;
-    width: 93%;
-    height: 34px;
-    margin-left: 0.5pc;
-    margin-top: 0.5pc;
+#inputCreate{
+	background-color: lightcyan;
+    width: 96%;
+    border: 1px solid lightgray;
+    margin-left: 0.3pc;
+    margin-top: 0.3pc;
+    height: 40%;
+    border-radius: 5px
 }
 #btn{
-	margin-left: 0.5pc;
+	margin-left: 0.4pc;
+	background-color: lightgreen;
+    width: 33%;
+    height: 41%;
+    border: none;
+    border-radius: 4px;
+    margin-top: 0.3pc;
 }
