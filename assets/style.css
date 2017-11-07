@@ -1,0 +1,161 @@
+/*    HEADER    */
+header{
+	background-color: #026AA7;
+	color: #fff;
+	height: 50px;
+	margin-left: -8px;
+    margin-top: -8px;
+    width: 101%;
+}
+header p{
+	margin-top: 4px;
+    margin-left: 6px;
+}
+.tab{
+	background-color: #67A6CA;
+	border-radius: 3px;
+	display: inline-block;
+	font-family: 'Original Surfer', cursive;
+	height: 30px;
+    margin-top: 0.6em;
+    margin-left: 0.5em;
+    width: 100px;
+}
+.search{
+	float: right;
+	border-radius: 3px;
+	width: 200px;
+	height: 30px;
+	background-color: #67A6CA;
+	margin-right: 64pc;
+    margin-top: -1.9em;
+    margin-left: 8pc;
+}
+/*      INPUT       */
+.search #input{
+	border: none;
+	background-color: #67A6CA;
+    margin-top: 0.6em;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*     IMAGEN LOGO      */
+#trello{
+	float: right;
+	width: 8%;
+	background-size: 30px;
+    margin-right: 40pc;
+    margin-top: -2pc;
+}
+
+.opcs{
+	float: left;
+	display: inline-block;
+    margin-left: 72pc;
+    margin-top: -36px;
+}
+.fa-plus, .fa-info-circle, .fa-bell-o{
+	margin-left: 0.3em;
+    margin-top: 0.3em;
+    font-size: 1.6em;
+}
+.plus, .info, .noti{
+	display: inline-block;
+	background-color: #67A6CA;
+	width: 40px;
+	height: 40px;
+    border-radius: 5px;
+    color: #fff;
+}
+.user{
+	display: inline-block;
+	background-color: #CDD2D4;
+	width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 4px;
+}
+
+/*     MENÚ      */
+#content{
+	background-color: #1A8EC2;
+	width: 101%;
+	height: 3.3pc;
+	margin-left: -8px;
+	font-family: 'IM Fell DW Pica SC', serif;
+}
+.pMenu{
+	font-size: 1.5pc;
+    margin-top: 0.7pc;
+    margin-left: 1.2pc;
+    display: inline-block;
+}
+/*    ICONO ESTRELLA     */
+.icon-star2{
+	color: #fff;
+	margin-left: 1pc;
+}
+.icon-star2:before {
+  content: "\e9f2";
+}
+#line{
+	color: lightgrey;
+    margin-left: 1pc;
+}
+.icon-lock{
+	color: #fff;
+    margin-left: 1pc;
+}
+.icon-lock:before {
+ 	content: "\e975";
+}
+.private{
+	font-size: 1.2pc;
+    margin-left: 0.7pc;
+}
+.under{
+	display: inline-block;
+    float: right;
+    margin-top: -26px;
+    margin-right: 2pc;
+    overflow: auto;
+}
+.icon-more_horiz{
+	color: #fff;
+    margin-right: 0.4em;
+}
+.icon-more_horiz:before {
+  content: "\e5d3";
+}
+#linkL{
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*   SECCIÓN LISTAS   */
+#conteiner{
+	background-color: #1A8EC2;
+    width: 101%;
+    margin-left: -8px;
+    height: 500px;
+}
+#contenedor{
+	background-color: #fff;
+	width: 271px;
+	height: 81px;
+	display: inline-block;
+}
+.input{
+	border: 1px solid olive;
+    width: 93%;
+    height: 34px;
+    margin-left: 0.5pc;
+    margin-top: 0.5pc;
+}
+#btn{
+	margin-left: 0.5pc;
+}
