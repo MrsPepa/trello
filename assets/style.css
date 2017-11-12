@@ -163,7 +163,7 @@ a{
 #contenedor{
 	background-color: #fff;
 	width: 21%;
-	height: 20%;
+	height: 28%;
 	display: inline-block;
     margin-left: 1pc;
     border-radius: 0.3pc;
@@ -185,4 +185,7 @@ a{
     border: none;
     border-radius: 4px;
     margin-top: 0.3pc;
+}
+#newForm{
+	height: 23pc;
 }

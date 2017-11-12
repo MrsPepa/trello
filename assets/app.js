@@ -1,6 +1,6 @@
 function add(){
 	//elemento padre
-	var padre =  document.getElementById('conteiner');
+	var padre =  document.getElementById('newForm');
 
 	//crear div contenedor
 	var newConteiner = document.createElement('div');
@@ -10,6 +10,9 @@ function add(){
 
 	//crear boton
 	var boton = document.createElement('button');
+
+	//crear nodo de texto en boton
+	//var txt = document.createTextNode()
 
 	/*//crear icono
 	var plus = document.createElement('span');
@@ -26,11 +29,13 @@ function add(){
 	//agregar al padre
 	newConteiner.appendChild(newInput);
 	newConteiner.appendChild(boton);
-
-
 	padre.appendChild(newConteiner);
 
-	conteiner.addEventListener('click', function(e){
-		alert("hola mundo");
-	})
+/*
+	//var clase input
+	var keep = document.getElementsByClassName('inputOriginal');
+
+	keep.addEventListener('click', function(){
+		return inputOriginal;
+	})*/
 }
