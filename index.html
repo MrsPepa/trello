@@ -9,9 +9,7 @@
 	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-	<main>
-
-		<!--    HEADER    -->
+	<!--    HEADER    -->
 		<header>
 			<div class="tab">
 				<p><i class="fa fa-trello" aria-hidden="true"></i> Tableros</p>
@@ -41,6 +39,7 @@
 			</div>
 		</header>
 
+	<main>
 		<!--     MENÚ     -->
 		<section id="content">
 			<div id="menu">
@@ -61,13 +60,17 @@
 		</section>
 
 		<!--    SECCIÓN LISTAS    -->
-		<section id="conteiner">
-			<div>	
-				<input type="text"  onclick="add()" class="inputOriginal" placeholder="Añadir una lista...">
-			</div>
+		<section id="container">
+
 			<div id="newForm">
 				
 			</div>
+
+			<div id="original">
+				<input type="text" placeholder="Añadir lista..." id="comment">
+				<button id="btn" class="show">Guardar</button>
+			</div>
+
 		</section>
 	</main>
 	<script type="text/javascript" src="assets/app.js"></script>
