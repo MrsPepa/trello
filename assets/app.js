@@ -33,5 +33,5 @@ boton.addEventListener('click', function(){
 	//añadimos al div
 
 	addTarea.appendChild(txtArea);
-	original.appendChild(addTarea);*/
+	original.appendChild(addTarea);
 })
